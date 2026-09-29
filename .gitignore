@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Logs / temp
+*.log
+nohup.out
+
+# Editor
+.vscode/
+.idea/

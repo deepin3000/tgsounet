@@ -9,7 +9,7 @@ function y(e){const n=[...e];for(let s=n.length-1;s>0;s--){const o=Math.floor(Ma
             </div>
           </div>
         </a>
-      `}).join(""));const E=(c+1)%w;localStorage.setItem("tgnav-ad-offset",E.toString());const m=document.getElementById("close-promo-btn"),a=document.getElementById("promo-section");m&&a&&m.addEventListener("click",()=>{a.style.opacity="0",a.style.transform="translateY(-10px)",a.style.transition="opacity 0.3s ease, transform 0.3s ease",setTimeout(()=>{a.style.display="none"},300)});function k(e){return(e||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}function b(e){const n=`https://avatar.tgnav.org/small/${e.username.toLowerCase()}.jpg`,s="/images/default.jpg",o="/images/loading.gif",t=`/detail/${e.username.toLowerCase()}/`,r=k(e.title);return`
+      `}).join(""));const E=(c+1)%w;localStorage.setItem("tgnav-ad-offset",E.toString());const m=document.getElementById("close-promo-btn"),a=document.getElementById("promo-section");m&&a&&m.addEventListener("click",()=>{a.style.opacity="0",a.style.transform="translateY(-10px)",a.style.transition="opacity 0.3s ease, transform 0.3s ease",setTimeout(()=>{a.style.display="none"},300)});function k(e){return(e||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#039;")}function b(e){const n=`/avatars/small/${e.username.toLowerCase()}.jpg`,a9=`https://ui-avatars.com/api/?name=${e.username[0].toUpperCase()}&background=random&size=128&font-size=0.45&bold=true`,s="/images/default.jpg",o="/images/loading.gif",t=`/detail/${e.username.toLowerCase()}/`,r=k(e.title);return`
       <a href="${t}" class="rec-list-item">
         <img 
           class="rec-item-avatar" 
