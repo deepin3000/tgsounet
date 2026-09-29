@@ -19,7 +19,7 @@ import urllib.parse
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DETAIL_DIR = os.path.join(ROOT, 'detail')
-BASE = 'https://www.tgsou.net'
+BASE = 'https://tgsou.net'
 
 BACK_LINK_RE = re.compile(
     r'<!-- Back Navigation --> <a href="/(channel|group|robot)/" class="md-button-text"'

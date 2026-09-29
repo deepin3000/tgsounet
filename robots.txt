@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.tgsou.net/sitemap.xml
+Sitemap: https://tgsou.net/sitemap.xml

@@ -41,7 +41,7 @@ def extract(path: str):
     url = m.group(1) if m else None
     if not url:
         return None
-    path_part = unescape(url).replace("https://www.tgsou.net", "", 1)
+    path_part = unescape(url).replace("https://tgsou.net", "", 1)
     if not path_part.startswith("/"):
         path_part = "/" + path_part
     username = ""
