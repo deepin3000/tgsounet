@@ -17,8 +17,9 @@
 window.adPoolData = [
   {
     title: 'TGwiki',
-    desc: '由TGSOU打造的高质量Telegram知识库',
-    link: 'https://wiki.tgsou.net',
+    desc: '由寻花楼打造的精选老师',
+    link: 'https://t.me/brobusbot',
+    image: '/promos/xunhualou.jpg',
     icon: 'fa-brands fa-telegram',
     gradient: 'linear-gradient(135deg, #00C6FF 0%, #0072FF 100%)',
     tag: '知识库',
