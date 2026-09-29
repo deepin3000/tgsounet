@@ -4,5 +4,3 @@
 .avatar-fade{opacity:0;transition:opacity .35s ease;}
 .avatar-fade:not([src*="loading.gif"]){opacity:1;}
 
-/* TGSOU: hide promo/ad section (own ads to be added later) */
-.promo-section{display:none!important;}
